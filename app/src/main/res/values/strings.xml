@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">MesgetParent</string>
+    <string name="server_address">请输入服务器地址</string>
+    <string name="port_num">端口号</string>
+    <string name="check_password">记住设备</string>
+    <string name="check_login">自动连接</string>
+    <string name="login">登录</string>
+    <string name="string_mcname">设备名称</string>
+    <string name="sendtestmsg">发送测试消息</string>
+    <string name="sendDeviceMsg">发送设备信息</string>
+    <string name="sendScreenState">检查设备屏幕状态</string>
+    <string name="mesget_parent_version">Mesget Parent V0.6</string>
+    <string name="tt_server">地址：</string>
+    <string name="tt_port">端口：</string>
+    <string name="et_server">请输入服务器地址</string>
+    <string name="et_port_number">请输入端口号</string>
+    <string name="tt_devicename">名称：</string>
+    <string name="et_device_name">请输入要连接的Child设备名称</string>
+    <string name="main_dir">/storage/emulated/0/</string>
+    <string name="main_volume">拖动以调节音量</string>
+    <string name="main_volume_1">通话音量</string>
+    <string name="main_volume_2">系统音量</string>
+    <string name="main_volume_3">铃声音量</string>
+    <string name="main_volume_4">媒体音量</string>
+    <string name="main_volume_5">闹钟音量</string>
+</resources>

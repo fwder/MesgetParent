@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/main_volume_1"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <SeekBar
+        android:id="@+id/skbar_call"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:min="0" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/main_volume_2"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <SeekBar
+        android:id="@+id/skbar_system"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:min="0" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/main_volume_3"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <SeekBar
+        android:id="@+id/skbar_ring"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:min="0" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/main_volume_4"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <SeekBar
+        android:id="@+id/skbar_music"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:min="0" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/main_volume_5"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <SeekBar
+        android:id="@+id/skbar_alarm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:min="0" />
+
+</LinearLayout>
