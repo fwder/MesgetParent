@@ -183,7 +183,6 @@ public class MainActivity extends AppCompatActivity {
             //设置每个list的点击事件
             @Override
             public void onItemClick(AdapterView<?> p1, View p2, int p3, long p4) {
-                // TODO: Implement this method
                 switch (p3) {
                     case 0: // Hello World 测试信息
                         onCommonSendMsg("helloworld");
