@@ -29,12 +29,12 @@ import java.util.regex.Pattern;
 
 public class VolumeControlStreamActivity extends AppCompatActivity {
 
+    private static String TAG = "VolumeControlStreamActivity";
     private SeekBar skbar_call;
     private SeekBar skbar_system;
     private SeekBar skbar_ring;
     private SeekBar skbar_music;
     private SeekBar skbar_alarm;
-    private String TAG = "VolumeControlStreamActivity";
     private Timer timer = new Timer();
     private TimerTask task;
     private OutputStream outputStream;
@@ -260,13 +260,15 @@ public class VolumeControlStreamActivity extends AppCompatActivity {
     public static String stringMatch(String type, String s) {
         try {
             List<String> results = new ArrayList<String>();
-            Pattern p = Pattern.compile("<" + type + ":([\\w/\\.]*)>");
+            Pattern p = Pattern.compile("<" + type + ":(.*?)>");
             Matcher m = p.matcher(s);
             while (!m.hitEnd() && m.find()) {
                 results.add(m.group(1));
             }
+            Log.e(TAG, "stringMatch: 切割结果：" + results.get(0));
             return results.get(0);
         } catch (Exception e) {
+            Log.e(TAG, "stringMatch: 字符串切割错误！");
             return "";
         }
     }
